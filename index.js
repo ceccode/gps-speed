@@ -1,0 +1,1 @@
+module.exports = require('./lib/gps-speed.js');

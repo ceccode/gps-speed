@@ -1,0 +1,30 @@
+{
+  "name": "gps-speed",
+  "version": "1.0.0",
+  "description": "GPS Speed converter",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test mocha ./test/*.js",
+    "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "*",
+    "mocha": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceccode/gps-speed.git"
+  },
+  "keywords": [
+    "gps",
+    "speed",
+    "converter"
+  ],
+  "author": "Francesco <falanga.fra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceccode/gps-speed/issues"
+  },
+  "homepage": "https://github.com/ceccode/gps-speed#readme"
+}

@@ -1,7 +1,7 @@
 {
   "name": "gps-speed",
   "version": "1.0.0",
-  "description": "GPS Speed converter",
+  "description": "Convert speed in km/h from speed in 1/1000th knots",
   "scripts": {
     "start": "node index.js",
     "test": "NODE_ENV=test mocha ./test/*.js",

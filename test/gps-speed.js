@@ -9,7 +9,6 @@ describe("convertTo km/h", () => {
   it("should convert in km/h", () => {
 
     const speed = 15902;
-    const unit = 'km_h';
     const result = gpsSpeed.convert(speed); //29.450504 km/h
 
     assert.typeOf(result, 'number');
@@ -20,7 +19,7 @@ describe("convertTo km/h", () => {
 describe("convertTo mph", () => {
   it("should return 0 if no speed is provided", () => {
 
-    const result = gpsSpeed.convert(); //18.29969 mph
+    const result = gpsSpeed.convert();
 
     assert.typeOf(result, 'number');
     assert.equal(result, 0);

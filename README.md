@@ -24,7 +24,7 @@ console.log(speed_km_h); //29.450504
 
 ## API
 
-`convert(speed)`
+### convert(speed)
 
 ```
 const gpsSpeed = require('gps-speed');
